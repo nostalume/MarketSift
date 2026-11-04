@@ -1,4 +1,0 @@
-interface:
-  display_name: "市场预测与持仓研究"
-  short_description: "重建市场主导关系与反馈，形成明确预测、趋势修订和人工持仓建议"
-  default_prompt: "使用 $market-position-research，从历史局势和参与者约束发现主导关系，给出明确可判错的市场预测与持仓比较，并解释趋势延续、反转及修订条件。"
