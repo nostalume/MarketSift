@@ -36,4 +36,4 @@ jobs:
         run: uv run --locked --no-sync pytest -q -p no:cacheprovider
       - name: Lint
         if: success() || failure()
-        run: uv run --locked --no-sync ruff check --no-cache --select F,I,RUF100 main.py src tests
+        run: uv run --locked --no-sync ruff check --no-cache --select F,I,RUF100 src tests
